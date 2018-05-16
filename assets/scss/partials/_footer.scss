@@ -1,0 +1,42 @@
+// FOOTER
+
+.wt-footer-wrapper {
+    
+    padding: 50px 0;
+    border-top: 0.5px solid #ecf0f1;
+
+    .wt-footer-widget {
+
+        .wt-footer-widget-list {
+            padding: 0 20%;
+        }
+
+        #wt-footer-slogan {
+            color: $wt-color-grey;
+            font-weight: 300;
+            padding: 10px 0;
+        }
+
+        #wt-heart {
+            color: $wt-color-red;
+        }
+
+        img {
+            width: 80%;
+            height: auto;
+        }
+
+        ul {
+            padding-left: 0px;
+            margin-left: 0px;
+
+            li {
+                padding-top: 10px;
+                color: $wt-color-grey;
+                list-style: none;
+                font-weight: 300;
+            }
+        }
+
+    }
+}

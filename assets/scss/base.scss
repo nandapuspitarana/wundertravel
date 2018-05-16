@@ -1,0 +1,16 @@
+// BASE TO INCLUDE ALL SCSS FILES
+
+// PARTIALS
+@import "partials/mediaqueries";
+@import "partials/colors";
+@import "partials/global";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/pagination";
+
+// MAIN
+@import "main/homepage";
+@import "main/blog";
+@import "main/single-post";
+@import "main/single-destination";
+@import "main/404";

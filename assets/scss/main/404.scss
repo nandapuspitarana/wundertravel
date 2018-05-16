@@ -1,0 +1,38 @@
+// 404
+
+.wt-404-wrapper {
+    
+    background: linear-gradient(to bottom,  rgba(0, 10, 0, 0.253) 0%,  rgba(0, 10, 0, 0.37) 100%), url('../images/404.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1005;
+    height: 100vh;
+
+    .wt-404-heading {
+        
+        text-align: center;
+        padding: 15%;
+
+        h1 {
+            font-size: 4.5em;
+            padding-bottom: 20px;
+        }
+
+        h1,
+        h2 {
+            font-weight: 400;
+            color: $wt-color-white;
+            font-family: $font-playfair;
+        }
+
+        a {
+            color: $wt-color-white;
+            text-decoration: underline;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+    }
+
+}
