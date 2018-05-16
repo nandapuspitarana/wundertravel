@@ -1,0 +1,117 @@
+/* homepage
+	 ========================================================================== */
+
+/* blue portion */
+.wt-wrapper-hero-homepage, .wt-homepage-uncover, .wt-homepage-exp, .wt-homepage-stats, .wt-homepage-lastcta  {
+    border-color: rgba(255, 255, 255, 1)!important;
+    border-style: solid;
+    border-width: 9px 9px 0px 9px;
+    
+}
+
+.wt-wrapper-hero-homepage .wt-navbar .wt-logo-header {
+    width: 23%!important;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light.wt-navbar {
+    padding: .5rem 1rem .5rem 0rem!important;
+}
+
+.wt-hero-homepage-heading > p {
+    font-size: 1.5em!important;
+    text-align: justify!important;
+} 
+
+.fadeIn{
+    animation-delay: 1.4s;
+}
+
+/* green portion */
+.wt-uncover-right > h2 {
+	font-size: 4.0em!important;
+} 
+
+.wt-uncover-right > p {
+	font-size: 1.1em!important;
+	text-align: justify!important;
+} 
+
+.wt-uncover-right > .animated {
+    animation-delay: 2s;
+}
+
+/* red portion */
+.verticalLine {
+    /* background-color: rgba(218, 87, 84, 1)!important; */
+    top: -65px!important;
+    height: 718px!important;
+}
+
+.wt-exp-left > h3 {
+    font-family: "PT Serif" !important;
+}
+
+.wt-exp-left > .animated {
+    animation-delay: 3s;
+}
+
+.wt-exp-right > .animated {
+    animation-delay: 3s;
+}
+
+/* grey portion */
+.wt-homepage-lastcta {
+    padding: 4% 10%;
+}
+
+.wt-app-download > ul > li > a > img {
+	width: 170px!important;
+} 
+
+.wt-app-download:nth-child(2) > ul{
+	padding-top: 1.5em!important;
+}
+
+.wt-app-download:nth-child(2) > ul > li {
+	padding-top: 1em!important;
+}
+
+@media only screen and (max-width: 480px) {
+    .wt-app-download:nth-child(2) > ul {
+        padding-top: 0!important;
+    }
+
+    .wt-app-download > ul > li > a > img {
+        width: 110px!important;
+    }
+
+    .wt-app-download:nth-child(2) > ul > li {
+        padding-top: .5em!important;
+    }
+}
+
+/* footer */
+.wt-footer-widget-list-footer {
+    margin-top: .5em;
+    letter-spacing: .5em;
+}
+
+/* blog header
+     ========================================================================== */
+     
+/* logo */
+.wt-logo-header {
+    width: 20%!important;
+}
+
+/* hero font */
+.wt-wrapper-hero .wt-hero-heading h1 {
+    font-family: "Lato",sans-serif !important;
+}
+
+/* destination
+     ========================================================================== */
+
+.no-results.not-found {
+    padding-bottom: 100px;
+}

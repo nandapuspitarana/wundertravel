@@ -127,6 +127,10 @@ function wundertravel_scripts() {
 	wp_enqueue_style( 'wundertravel-style', get_stylesheet_uri() );
 
 	// ================ // CSS // ================ //
+
+	// ANIMATE
+	wp_register_style('css-animate', get_template_directory_uri() . '/assets/css/animate.min.css');
+	wp_enqueue_style('css-animate');
 	
 	// BOOTSTRAP GRID
 	wp_register_style('css-bootstrap-grid', get_template_directory_uri() . '/assets/css/bootstrap-grid.min.css');
@@ -179,6 +183,13 @@ function wundertravel_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'wundertravel_scripts' );
+
+// ADD CHILD REVISI CSS
+
+function enqueue_parent_styles() {
+	wp_enqueue_style( 'parent-style', get_template_directory_uri().'/revisi.css');
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles',20 );
 
 // ADD DESTINATION POST TYPE
 

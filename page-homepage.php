@@ -23,7 +23,7 @@ get_header('homepage');
 			<div class="row">
 				<div class="col">
 					<nav class="navbar navbar-expand-lg navbar-light bg-light wt-navbar">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-header.png" width="" height="" alt="" class="wt-logo-header">
+						<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-header.png" width="" height="" alt="" class="wt-logo-header"></a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
@@ -38,16 +38,16 @@ get_header('homepage');
 					<div class="row wt-hero-homepage-content">
 						<div class="col-xs-12 col-md-6">
 							<div class="wt-hero-homepage-heading">
-								<h2>The start of your next adventure</h2>
-								<p>
-									Uncovermore, experience more <br /> 
-									source for your next travel inspiration <br />
+								<h2 class="animated fadeInLeft">The start of your next adventure</h2>
+								<p class="animated fadeInRight">
+									Uncover more, experience more
+									source for your next travel inspiration
 									seek unforgetable holiday memories
 								</p>
 								<p>
-									<ul>
-										<li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/appstore.svg" width="" height="" alt="" /></a></li>
-										<li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/googleplay.svg" width="" height="" alt="" /></a></li>
+									<ul class="animated fadeIn">
+										<li><a href="https://play.google.com/store/apps/details?id=com.orfeostory.wunderlive"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/appstore.svg" width="" height="" alt="" /></a></li>
+										<li><a href="https://play.google.com/store/apps/details?id=com.orfeostory.wunderlive"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/googleplay.svg" width="" height="" alt="" /></a></li>
 									</ul>
 								</p>
 							</div>
@@ -77,17 +77,17 @@ get_header('homepage');
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<div class="wt-uncover-right">
-						<h2>uncover</h2>
-						<ul>
+						<h2 class="animated fadeInLeft">Uncover</h2>
+						<ul class="animated fadeIn">
 							<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/uncover-1.svg" /></li>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/uncover-2.svg" /></li>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/uncover-3.svg" /></li>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/uncover-4.svg" /></li>
 							<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/uncover-5.svg" /></li>
 						</ul>
-						<p>
-							The best landmark to see, things to do, and places to visit <br />
-							Along with the best travel providers to perfect your holiday <br />
+						<p class="animated fadeInRight">
+							The best landmark to see, things to do, and places to visit
+							Along with the best travel providers to perfect your holiday
 							Both with smooth interaction, both in one click away.
 						</p>
 					</div>
@@ -105,8 +105,8 @@ get_header('homepage');
 			<div class="row no-gutters">
 				<div class="col-xs-12 col-md-4">
 					<div class="wt-exp-left">
-						<h3>experience</h3>
-						<div class="wt-homepage-exp-icon">
+						<h3 class="animated fadeIn">Experience</h3>
+						<div class="wt-homepage-exp-icon animated fadeInLeft">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/exp-1.png" />
 							<p>Never miss out any single detail</p>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/exp-2.png" />
@@ -118,12 +118,12 @@ get_header('homepage');
 					<div class="wt-exp-middle">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/homepage-3.gif" />
 					</div>
-					<div class="verticalLine"></div>
+					<!-- <div class="verticalLine"></div> -->
 				</div>
 				<div class="col-xs-12 col-md-4">
 					<div class="wt-exp-right">
 						<h3>experience</h3>
-						<div class="wt-homepage-exp-icon">
+						<div class="wt-homepage-exp-icon animated fadeInRight">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/exp-3.png" />
 							<p>Never miss out any single detail</p>
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/exp-4.png" />
@@ -171,11 +171,11 @@ get_header('homepage');
 				<div class="col-md-12">
 					<div class="wt-lastcta">
 						<h3>Ready for your next adventure? <br />
-						Download Wundertravel today!</h3>
+						Download Wunder travel today!</h3>
 						<div class="wt-app-download">
 							<ul>
-								<li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/appstore.svg" width="" height="" alt="" /></a></li>
-								<li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/images/googleplay.svg" width="" height="" alt="" /></a></li>
+								<li><a href="https://play.google.com/store/apps/details?id=com.orfeostory.wunderlive"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/appstore.svg" width="" height="" alt="" /></a></li>
+								<li><a href="https://play.google.com/store/apps/details?id=com.orfeostory.wunderlive"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/googleplay.svg" width="" height="" alt="" /></a></li>
 							</ul>
 						</div>
 						<div class="wt-wave-hand">

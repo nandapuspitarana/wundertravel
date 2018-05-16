@@ -34,7 +34,7 @@
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 							</button>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-header.png" width="" height="" alt="" class="wt-logo-header">
+							<a href="/blog"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-header.png" width="" height="" alt="" class="wt-logo-header"></a>
 							<i class="fas fa-search"></i>
 							<span class="wt-search-divider"></span>
 							<form role="search" method="get" class="search-form wt-search-form" action="<?php echo home_url( '/' ); ?>">
