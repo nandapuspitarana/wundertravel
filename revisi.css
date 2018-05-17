@@ -9,8 +9,8 @@
     
 }
 
-.wt-wrapper-hero-homepage .wt-navbar .wt-logo-header {
-    width: 23%!important;
+.wt-link-logo-header {
+    display: contents;
 }
 
 .navbar.navbar-expand-lg.navbar-light.bg-light.wt-navbar {
@@ -42,7 +42,6 @@
 
 /* red portion */
 .verticalLine {
-    /* background-color: rgba(218, 87, 84, 1)!important; */
     top: -65px!important;
     height: 718px!important;
 }
@@ -77,16 +76,35 @@
 }
 
 @media only screen and (max-width: 480px) {
+    /* homepage responsive
+     ========================================================================== */
+
+    .wt-wrapper-hero-homepage, .wt-homepage-uncover, .wt-homepage-exp, .wt-homepage-stats, .wt-homepage-lastcta  {
+        border: none;
+        
+    }
+
     .wt-app-download:nth-child(2) > ul {
         padding-top: 0!important;
     }
 
-    .wt-app-download > ul > li > a > img {
-        width: 110px!important;
-    }
-
     .wt-app-download:nth-child(2) > ul > li {
         padding-top: .5em!important;
+    }
+
+    .wt-app-download > ul > li > a > img {
+        width: 130px!important;
+    }
+
+    .wt-destination-wrapper .wt-tabs .wt-ul-tabs li {
+        padding: 0!important;
+    }
+    
+    /* destination page responsive
+     ========================================================================== */
+
+    .wt-destination-wrapper .wt-tabs .wt-ul-tabs {
+     display: block;   
     }
 }
 
@@ -98,11 +116,6 @@
 
 /* blog header
      ========================================================================== */
-     
-/* logo */
-.wt-logo-header {
-    width: 20%!important;
-}
 
 /* hero font */
 .wt-wrapper-hero .wt-hero-heading h1 {
