@@ -34,7 +34,11 @@
 							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 							</button>
-							<a href="/blog" class="wt-link-logo-header"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-header.png" width="" height="" alt="" class="wt-logo-header"></a>
+							<a href="/blog" class="wt-link-logo-header" alt="wunder travel"
+								style="background: url(https://www.wundertravel.co/wp-content/themes/wundertravel/assets/images/logo-header.png) no-repeat center center;
+								background-size:cover;">
+								wunder travel
+							</a>
 							<i class="fas fa-search"></i>
 							<span class="wt-search-divider"></span>
 							<form role="search" method="get" class="search-form wt-search-form" action="<?php echo home_url( '/' ); ?>">

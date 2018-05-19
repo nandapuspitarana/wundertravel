@@ -9,8 +9,12 @@
     
 }
 
-.wt-link-logo-header {
-    display: contents;
+.wt-link-homepage-logo-header {
+    text-indent: 110%;
+    display: block;
+    width: 170px;
+    height: 30px;
+    overflow: hidden;
 }
 
 .navbar.navbar-expand-lg.navbar-light.bg-light.wt-navbar {
@@ -80,8 +84,12 @@
      ========================================================================== */
 
     .wt-wrapper-hero-homepage, .wt-homepage-uncover, .wt-homepage-exp, .wt-homepage-stats, .wt-homepage-lastcta  {
-        border: none;
-        
+        border: none;  
+    }
+
+    .wt-link-homepage-logo-header {
+        width: 155px;
+        height: 28px;
     }
 
     .wt-app-download:nth-child(2) > ul {
@@ -98,6 +106,21 @@
 
     .wt-destination-wrapper .wt-tabs .wt-ul-tabs li {
         padding: 0!important;
+    }
+    
+    /* blog page responsive
+     ========================================================================== */
+
+    .wt-wrapper-hero .wt-hero-heading h1 {
+        font-size : 30px!important;
+    }
+    
+    .wt-wrapper-hero .wt-hero-heading p {
+        font-size : 12px!important;
+    }
+    
+    .wt-wrapper-hero .wt-navbar .wt-search-form {
+        display : block!important;
     }
     
     /* destination page responsive
@@ -120,6 +143,15 @@
 /* hero font */
 .wt-wrapper-hero .wt-hero-heading h1 {
     font-family: "Lato",sans-serif !important;
+}
+
+.wt-link-logo-header {
+    margin-right: 30px;
+    text-indent: 110%;
+    display: inline-block;
+    width: 116px;
+    height: 19.969px;
+    overflow: hidden;
 }
 
 /* destination

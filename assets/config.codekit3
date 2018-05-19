@@ -89,13 +89,13 @@
 		},
 	"\/images\/404.jpg": {
 		"ft": 16384,
-		"iS": 3705177,
+		"iS": 752785,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/404.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/appstore.svg": {
@@ -152,17 +152,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/exp-bg.png": {
-		"ft": 32768,
-		"iS": 463782,
-		"oA": 0,
-		"oAP": "\/images\/exp-bg.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/googleplay.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -172,72 +161,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/images\/hero-accomodation.jpg": {
-		"ft": 16384,
-		"iS": 3876953,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/hero-accomodation.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/images\/hero-adventure.jpg": {
-		"ft": 16384,
-		"iS": 6220863,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/hero-adventure.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/images\/hero-airport.jpg": {
-		"ft": 16384,
-		"iS": 1546734,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/hero-airport.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/images\/hero-australia.jpg": {
-		"ft": 16384,
-		"iS": 1525362,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/hero-australia.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/images\/hero-food.jpg": {
-		"ft": 16384,
-		"iS": 1743017,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/hero-food.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/images\/hero-newzealand.jpg": {
-		"ft": 16384,
-		"iS": 2789995,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/hero-newzealand.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
 		},
 	"\/images\/hero.jpg": {
 		"ft": 16384,
@@ -256,7 +179,7 @@
 		"oA": 0,
 		"oAP": "\/images\/homepage-1.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/homepage-2.gif": {
 		"ft": 4194304,
@@ -264,7 +187,7 @@
 		"oA": 0,
 		"oAP": "\/images\/homepage-2.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/homepage-3.gif": {
 		"ft": 4194304,
@@ -272,7 +195,7 @@
 		"oA": 0,
 		"oAP": "\/images\/homepage-3.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/images\/logo-footer.svg": {
 		"ft": 2097152,

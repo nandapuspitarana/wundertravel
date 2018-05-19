@@ -23,7 +23,11 @@ get_header('homepage');
 			<div class="row">
 				<div class="col">
 					<nav class="navbar navbar-expand-lg navbar-light bg-light wt-navbar">
-						<a href="/" class="wt-link-logo-header"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-header.png" width="" height="" alt="" class="wt-logo-header"></a>
+						<a href="/" class="wt-link-homepage-logo-header" alt="wunder travel"
+							style="background: url(https://www.wundertravel.co/wp-content/themes/wundertravel/assets/images/logo-header.png) no-repeat center center;
+							background-size:cover;">
+							wunder travel
+						</a>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
